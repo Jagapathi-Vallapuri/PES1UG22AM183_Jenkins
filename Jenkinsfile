@@ -15,7 +15,7 @@ pipeline{
     stage("Deploy")  {
       steps{
         echo "Deploy"
-        sh "cat invisible.cpp"
+        sh "cat invisibleaa.cpp"
       }
     }
   }
